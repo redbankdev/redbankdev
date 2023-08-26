@@ -25,7 +25,7 @@ def check_status(ip, port):
         return "Down"
 
 def main():
-    json_file_path = "/Users/Devin/Desktop/Free_Proxy_List.json"  # Replace with your JSON file path
+    json_file_path = "/path/to/file.json"  # Replace with your JSON file path
 
     with open(json_file_path, "r") as json_file:
         json_data = json.load(json_file)
